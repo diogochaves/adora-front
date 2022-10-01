@@ -17,6 +17,7 @@ function App() {
         >
           Learn React 2
         </a>
+        return <button onClick={methodDoesNotExist}>Break the world</button>;
       </header>
     </div>
   );
